@@ -1,0 +1,57 @@
+.landing-header { 
+    background-color: black;
+}
+
+
+.landing-header h2 {
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .landing-header h2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+
+/* .Landing-Page {
+    margin: 0px;
+}
+
+.Landing-Page img {
+  
+    position: relative;
+}
+
+.Landing-Page h2 {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    text-align: center;
+   
+
+} */
+
+/* h2 {
+    text-align: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image {
+    width: 1600px;
+    height: 900px;
+    margin-bottom: 20px;
+    background-image: url(/images/Landingimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */

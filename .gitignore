@@ -1,0 +1,8 @@
+node_modules
+dist
+components/index.js
+package-lock.json
+.babel-cache
+reports
+node
+.vscode

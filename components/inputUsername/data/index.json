@@ -1,0 +1,14 @@
+{
+    "name": "inputUsername",
+    "instance": "6",
+    "properties": {
+      "placeholder":"Username",
+      "type":"text"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

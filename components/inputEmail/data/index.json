@@ -1,0 +1,15 @@
+{
+    "name": "inputEmail",
+    "instance": "3",
+    "properties": {
+      "type":"email"
+    
+  
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

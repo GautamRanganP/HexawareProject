@@ -1,0 +1,6 @@
+node_modules
+app.js
+views
+dist
+*.css
+components/index.js

@@ -1,0 +1,12 @@
+{
+  "name": "helloWorld",
+  "instance": "1",
+  "properties": {
+    "title": "helloWorld"
+  },
+  "type": "dynamic",
+  "services": {
+    "urls": {
+    }
+  }
+}

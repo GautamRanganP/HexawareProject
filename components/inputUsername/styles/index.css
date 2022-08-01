@@ -1,0 +1,46 @@
+.input-username {
+    margin: 40px auto;
+    width: 600px;
+    position: relative;
+}
+
+.input-username input {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .input-username input {
+        width: 250px;
+    }
+    .input-username {
+        margin-left: 100px;
+    }
+}
+
+.active-username {
+    transform: translateY(-20px);
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.placeholder-username {
+    transition: all .5s ease;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    color: rgb(168, 160, 160);
+}
+
+label input:focus+.placeholder-username {
+    transition: all .5s ease;
+    transform: translateY(-20px);
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}

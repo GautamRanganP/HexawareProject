@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Development Pages</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+<body>
+<div class='page-links'>
+    <% indexList.forEach(([filename, name]) => { %>
+    <p><a href='/pages/<%= filename %>'><%= name %></a>
+    <% }); %>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "landingNavbar",
+    "instance": "9",
+    "properties": {
+      "brand":"Gucci"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

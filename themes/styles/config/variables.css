@@ -1,0 +1,12 @@
+/*
+Media Queries
+---------------------------*/
+@custom-media --mobile (max-width: 768px);
+@custom-media --desktop (min-width: 769px);
+
+:root {
+    
+    /* The defaulted COLORS
+    */
+    --color-primary1: #050608;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "inputPassword",
+    "instance": "4",
+    "properties": {
+      "placeholder":"Password",
+      "type":"password"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

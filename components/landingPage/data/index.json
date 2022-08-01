@@ -1,0 +1,13 @@
+{
+    "name": "landingPage",
+    "instance": "8",
+    "properties": {
+        "brand":"Gucci"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

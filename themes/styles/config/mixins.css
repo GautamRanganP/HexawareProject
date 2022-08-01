@@ -1,0 +1,51 @@
+/* stylelint-disable */
+:root {
+    /* Button Defaults */
+    @define-mixin btn {
+        box-sizing: border-box;
+        cursor: pointer;
+        padding: 5px 35px;
+        min-height: 46px;
+        min-width: 100px;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease-in;
+        &:disabled {
+            opacity: 0.2;
+        }
+    }
+
+    /* CTA */
+    @define-mixin cta {
+        @mixin btn;
+        &.small {
+            padding:  5px 20px;
+            min-height: 36px;
+        }
+        &.small-padding {
+            padding: 5px 15px;
+            min-width: auto;
+        }
+    }
+
+    /* Screen Reader Only */
+    @define-mixin screen-reader-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    @define-mixin component-max-width {
+        max-width: var(--max-width-large);
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+}
+/* stylelint-enable */

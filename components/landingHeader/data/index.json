@@ -1,0 +1,13 @@
+{
+    "name": "landingHeader",
+    "instance": "5",
+    "properties": {
+      "brand":"Gucci"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

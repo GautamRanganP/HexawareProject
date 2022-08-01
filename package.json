@@ -1,0 +1,155 @@
+{
+    "name": "ordre-virtual",
+    "version": "1.0.0",
+    "description": "ORDRE META Platform Frontend Code Respository",
+    "module": "",
+    "main": "",
+    "scripts": {
+        "clean": "rimraf dist/",
+        "coverage": "bnr coverage",
+        "pre-commit": "bnr pre-commit",
+        "start": "nodemon --max_old_space_size=8192 -w app.js -w webpack.config.js app.js",
+        "test": "bnr test --passWithNoTests --runInBand --detectOpenHandles --verbose",
+        "test-watch": "npm test -- --watch",
+        "eslint": "bnr eslint",
+        "stylelint": "bnr stylelint"
+    },
+    "author": {
+        "name": "Hexaware CXT Interactive",
+        "url": "https://hexaware.com/"
+    },
+    "license": "SEE LICENSE IN license.txt",
+    "lint-staged": {
+        "*.js": "eslint",
+        "*.css": "stylelint --config ./stylelint.config"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.9.2",
+        "smoothscroll-polyfill": "^0.4.4"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/parser": "^7.9.4",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+        "@babel/plugin-transform-react-constant-elements": "^7.9.0",
+        "@babel/plugin-transform-react-inline-elements": "^7.9.0",
+        "@babel/plugin-transform-runtime": "^7.9.0",
+        "@babel/polyfill": "^7.11.5",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/preset-react": "^7.9.4",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+        "better-npm-run": "^0.1.1",
+        "cache-loader": "^4.1.0",
+        "chokidar": "^3.3.1",
+        "clear-module": "^4.1.1",
+        "consolidate": "^0.15.1",
+        "copy-webpack-plugin": "^6.2.1",
+        "css-loader": "^3.5.1",
+        "cssnano": "^4.1.10",
+        "debug": "^4.1.1",
+        "ejs": "^3.0.2",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "enzyme-to-json": "^3.4.4",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-loader": "^4.0.0",
+        "eslint-plugin-filenames": "^1.3.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-standard": "^4.0.1",
+        "expose-loader": "^0.7.5",
+        "express": "^4.17.1",
+        "file-loader": "^6.0.0",
+        "fs-extra": "^9.0.0",
+        "http": "0.0.1-security",
+        "http-status-codes": "^1.4.0",
+        "image-webpack-loader": "^6.0.0",
+        "isomorphic-fetch": "^3.0.0",
+        "jest-cli": "^25.3.0",
+        "jest-watch-typeahead": "^0.5.0",
+        "jspath": "^0.4.0",
+        "lint-staged": "^10.1.3",
+        "make-runnable": "^1.3.6",
+        "mini-css-extract-plugin": "^0.9.0",
+        "mkdir": "0.0.2",
+        "nodemon": "^2.0.3",
+        "npm-run-all": "^4.1.5",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss": "^7.0.27",
+        "postcss-css-variables": "^0.14.0",
+        "postcss-custom-media": "^7.0.8",
+        "postcss-fontpath": "^1.0.0",
+        "postcss-for": "^2.1.1",
+        "postcss-import": "^12.0.1",
+        "postcss-loader": "^3.0.0",
+        "postcss-mixins": "^6.2.3",
+        "postcss-nested": "^4.2.1",
+        "postcss-prepend-imports": "^1.0.1",
+        "postcss-preset-env": "^6.7.0",
+        "postcss-reporter": "^6.0.1",
+        "postcss-utilities": "^0.8.4",
+        "prettier": "^2.0.4",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-hot-loader": "^4.12.20",
+        "rimraf": "^3.0.2",
+        "source-map-loader": "^0.2.4",
+        "style-loader": "^1.1.3",
+        "stylelint": "^13.3.1",
+        "stylelint-config-prettier": "^8.0.1",
+        "stylelint-webpack-plugin": "^1.2.3",
+        "terser-webpack-plugin": "^2.3.8",
+        "url-loader": "^4.1.0",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-middleware": "^3.7.2",
+        "webpack-hot-middleware": "^2.25.0"
+    },
+    "peerDependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "betterScripts": {
+        "coverage": {
+            "command": "rimraf reports/coverage/* && npm test -- --coverage --noStackTrace",
+            "env": {
+                "NODE_ENV": "test"
+            }
+        },
+        "pre-commit": {
+            "command": "lint-staged",
+            "env": {
+                "NODE_ENV": "test"
+            }
+        },
+        "test": {
+            "command": "jest",
+            "env": {
+                "NODE_ENV": "test"
+            }
+        },
+        "eslint": {
+            "command": "eslint components/**/*.js",
+            "env": {
+                "NODE_ENV": "test"
+            }
+        },
+        "stylelint": {
+            "command": "stylelint components/**/*.css",
+            "env": {
+                "NODE_ENV": "test"
+            }
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}

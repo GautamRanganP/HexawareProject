@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Futura;
+    src: url('../../fonts/Futura-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Futura;
+    src: url('../../fonts/Futura-Regular.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Futura;
+    src: url('../../fonts/Futura-Medium.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Futura;
+    src: url('../../fonts/Futura-Bold.otf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: ACaslonPro;
+    src: url('../../fonts/ACaslonPro-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: ACaslonPro;
+    src: url('../../fonts/ACaslonPro-Regular.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: ACaslonPro;
+    src: url('../../fonts/ACaslonPro-Medium.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: ACaslonPro;
+    src: url('../../fonts/ACaslonPro-Bold.otf');
+    font-weight: 700;
+}
+
+/* Typography Defaults */
+h1 {
+    font-family: 'Futura';
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 38px;
+}
