@@ -1,17 +1,17 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import InputSearchBox from '../index';
+import SearchBar from '../index';
 import data from '../data/index';
 
-describe('<InputSearchBox />', () => {
+describe('<SearchBox />', () => {
 
     const testData = data.properties;
 
     let wrapper;
 
     beforeEach(() => {
-        wrapper = mount(<InputSearchBox {...testData}/>);
+        wrapper = mount(<SearchBar {...testData}/>);
     });
 
     afterEach(() => {

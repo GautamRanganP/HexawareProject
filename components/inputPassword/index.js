@@ -8,40 +8,6 @@ import './styles/index.css';
 
 
 const InputPassword = (props) => {
-
-
-    // const [ inputValue, setInputValue ] = useState('');
-
-
-    // const changeEvent = (event) => {
-    //     setInputValue(event.target.value);
-    // };
-
-
-    // const getValue = () => {
-    //     var placeholder = document.querySelector('.placeholder-password');
-
-    //     if (inputValue !== '') {
-    //         if (placeholder.hasAttribute('class', 'active')) {
-    //             placeholder.classList.add('active');
-    //         }
-    //     }
-    //     else {
-    //         if (placeholder.hasAttribute('class', 'active')) {
-    //             placeholder.classList.remove('active');
-    //         }
-    //     }
-
-    //     console.log(placeholder);
-    // };
-
-    // useEffect(() => {
-    //     getValue();
-
-    // }, [ inputValue ]);
-
-
-    // const { type } = props;
     const { id, type, placeholder, spanid } = props;
 
 

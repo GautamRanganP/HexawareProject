@@ -1,5 +1,5 @@
 {
-    "name": "inputSearchBox",
+    "name": "searchBar",
     "instance": "2",
     "properties": {
       "placeholder":"Search for looks, categories and products",

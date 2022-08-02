@@ -7,12 +7,13 @@ input {
     padding: 10px;
     position: relative;
     outline: none;
+    width: 300px;
 }
 
 .span-main {
     transition: top .5s ease;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
     background-color: white;
     position: absolute;
     top: 10px;

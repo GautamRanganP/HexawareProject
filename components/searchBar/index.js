@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './styles/index.css';
 
 
-const InputSearchBox = (props) => {
+const SearchBar = (props) => {
 
     const {
         placeholder
@@ -12,8 +12,6 @@ const InputSearchBox = (props) => {
 
     const { type } = props;
 
-    console.log(type);
-    console.log(placeholder);
 
     return (
         <div className='input-search'>
@@ -23,11 +21,11 @@ const InputSearchBox = (props) => {
     );
 };
 
-export default InputSearchBox;
+export default SearchBar;
 
-InputSearchBox.propTypes = {
+SearchBar.propTypes = {
     placeholder: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired
 };
 
-typeof renderReact === 'function' && renderReact(InputSearchBox, 'inputSearchBox');
+typeof renderReact === 'function' && renderReact(SearchBar, 'searchBar');

@@ -61,7 +61,7 @@ const InputCommonModule = (props) => {
     return (
         <div className='input-main'>
             <label htmlFor={id} className='label-main'>
-                <input type={type} id={id} onBlur={blurHandler} onFocus={focusHandler} onChange={changeHandler}></input>
+                <input type={type} id={id} onBlur={blurHandler} onFocus={focusHandler} onChange={changeHandler} value={inputValue}></input>
                 <span className='span-main' id={spanid}>{holder}</span>
                 {type === 'email' && inputValue !== '' && validateData()}
             </label>
