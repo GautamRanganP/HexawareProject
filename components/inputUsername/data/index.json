@@ -2,8 +2,10 @@
     "name": "inputUsername",
     "instance": "6",
     "properties": {
+      "id": "username",
+      "type": "text",
       "placeholder":"Username",
-      "type":"text"
+      "spanid":"6"
     },
     "type": "dynamic",
     "services": {

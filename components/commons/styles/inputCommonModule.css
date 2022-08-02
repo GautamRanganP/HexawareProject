@@ -1,0 +1,22 @@
+.input-main {
+    margin: 40px auto;
+    width: 600px;
+    position: relative;
+}
+input {
+    padding: 10px;
+    position: relative;
+    outline: none;
+}
+
+.span-main {
+    transition: top .5s ease;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    color: rgb(174, 171, 171);
+
+}

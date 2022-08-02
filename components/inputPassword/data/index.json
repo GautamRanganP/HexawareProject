@@ -2,8 +2,10 @@
     "name": "inputPassword",
     "instance": "4",
     "properties": {
+      "id": "password",
+      "type": "password",
       "placeholder":"Password",
-      "type":"password"
+      "spanid":"4"
     },
     "type": "dynamic",
     "services": {

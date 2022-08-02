@@ -1,17 +1,17 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
+import InputComment from '../index';
 import data from '../data/index';
-import InputUsername from '../index';
 
-describe('<InputUsername />', () => {
+describe('<InputComment />', () => {
 
     const testData = data.properties;
 
     let wrapper;
 
     beforeEach(() => {
-        wrapper = mount(<InputUsername {...testData}/>);
+        wrapper = mount(<InputComment {...testData}/>);
     });
 
     afterEach(() => {
@@ -19,6 +19,6 @@ describe('<InputUsername />', () => {
     });
 
     test(`should render without error`, () => {
-        expect(wrapper.find('.input-username').length).toBe(1);
+        expect(wrapper.find('.input-comment').length).toBe(1);
     });
 });

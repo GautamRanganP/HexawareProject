@@ -2,7 +2,10 @@
     "name": "inputComment",
     "instance": "8",
     "properties": {
-      "type":"text"
+      "id": "Comment",
+      "type": "text",
+      "placeholder":"Add a Comment",
+      "spanid":"8"
     },
     "type": "dynamic",
     "services": {

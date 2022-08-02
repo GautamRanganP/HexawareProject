@@ -1,9 +1,6 @@
 import React from 'react';
 import renderReact from '../../library/js/utils/renderReact';
-import InputBox from '../commons/inputBox';
-
 import PropTypes from 'prop-types';
-
 import './styles/index.css';
 
 
@@ -20,7 +17,7 @@ const InputSearchBox = (props) => {
 
     return (
         <div className='input-search'>
-            <InputBox placeholder={placeholder} type={type} />
+            <input placeholder={placeholder} type={type}></input>
             <button className='fa fa-search btn-search'></button>
         </div>
     );

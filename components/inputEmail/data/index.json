@@ -2,9 +2,10 @@
     "name": "inputEmail",
     "instance": "3",
     "properties": {
-      "type":"email"
-    
-  
+      "id": "Email",
+      "type": "email",
+      "placeholder":"Enter the Email Address",
+      "spanid":"3"
     },
     "type": "dynamic",
     "services": {
