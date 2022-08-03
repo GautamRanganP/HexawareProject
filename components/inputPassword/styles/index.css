@@ -4,8 +4,18 @@
 .input-password {
     margin: 40px auto;
     width: 600px;
-
 }
+
+@media screen and (max-width: 600px) {
+    .input-password input {
+        width: 250px;
+    }
+    .input-password {
+        margin-left: 100px;
+    }
+}
+
+
 
 /* .input-password input {
     outline: none;

@@ -1,0 +1,13 @@
+.input-comment {
+    margin: 40px auto;
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .input-comment input {
+        width: 250px;
+    }
+    .input-comment {
+        margin-left: 100px;
+    }
+}

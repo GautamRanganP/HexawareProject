@@ -17,9 +17,6 @@ const LandingPage = ( props ) => {
 
     return (
         <div className='landing-page'>
-            {/* <div className='landing-header'>
-                <h2>{brand}</h2>
-            </div> */}
             <div className='landing-body'>
                 <img className='image' src='/images/Landingimage.jpg' alt='noimage'></img>
                 <div className='head-brand'>
@@ -29,9 +26,6 @@ const LandingPage = ( props ) => {
                     <button className='btn'>Sign in</button>
                 </div>
             </div>
-            {/* <div className='landing-footer'>
-                <button>Sign in</button>
-            </div> */}
         </div>
 
     );

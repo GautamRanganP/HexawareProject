@@ -15,15 +15,17 @@ const LandingHeader = ( props ) => {
     console.log(brand);
 
     return (
-        <div className='landing-header'>
-            <h2>{brand}</h2>
+        <div>
+            <div className='landing-header'>
+                <h2>{brand}</h2>
+            </div>
+            <div className='landing-image'>
+                <img className='image' src='/images/Landingimage.jpg' alt='noimage'></img>
+            </div>
+            <div className='landing-footer'>
+                <button>Sign in</button>
+            </div>
         </div>
-
-    // <div className='image'>
-    //     <div className='overlay'>
-
-    //     </div>
-    // </div>
     );
 };
 

@@ -1,14 +1,6 @@
-.input-comment {
-    margin: 40px auto;
-    width: 600px;
-}
 
-/* .input-comment input {
-    outline: none;
-    width: 300px;
-    padding: 10px;
-    position: relative;
-}
+@import 'defaults.css';
+@import 'desktop.css' (--desktop-l);
 
 @media screen and (max-width: 600px) {
     .input-comment input {
@@ -18,6 +10,15 @@
         margin-left: 100px;
     }
 }
+
+/* .input-comment input {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+}
+
+
 
 .active-comment {
     transform: translateY(-20px);

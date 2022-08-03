@@ -2,6 +2,14 @@
     margin: 40px auto;
     width: 600px;
 }
+@media screen and (max-width: 600px) {
+    .input-username input {
+        width: 250px;
+    }
+    .input-username {
+        margin-left: 100px;
+    }
+}
 
 /* .input-username input {
     outline: none;

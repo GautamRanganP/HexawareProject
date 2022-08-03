@@ -9,6 +9,15 @@
 .input-email input {
     width: 400px;
 }
+@media screen and (max-width: 600px) {
+    .input-email input {
+        width: 350px;
+    }
+
+    .input-email {
+        margin-left: 50px;
+    }
+} 
 
 /* 
 .input-email input {
