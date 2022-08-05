@@ -1,0 +1,14 @@
+{
+    "name": "searchBox",
+    "instance": "11",
+    "properties": {
+      "placeholder":"Search for looks, categories and products",
+      "type":"text"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

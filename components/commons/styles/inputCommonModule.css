@@ -9,7 +9,6 @@ input {
     outline: none;
     width: 300px;
 }
-
 .span-main {
     transition: top .5s ease;
     padding-left: 3px;

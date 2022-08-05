@@ -18,7 +18,7 @@ const LandingPage = ( props ) => {
     return (
         <div className='landing-page'>
             <div className='landing-body'>
-                <img className='image' src='/images/Landingimage.jpg' alt='noimage'></img>
+                <img className='image' src='/images/Hotel2.jpg' alt='noimage'></img>
                 <div className='head-brand'>
                     <h2>{brand}</h2>
                 </div>

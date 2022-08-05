@@ -10,6 +10,7 @@ const InputCommonModule = (props) => {
 
     const { id, type, holder, spanid } = props;
 
+
     const changeHandler = (event)=>{
         setInputValue(event.target.value);
     };
@@ -44,19 +45,23 @@ const InputCommonModule = (props) => {
 
         span.style.top = '10px';
 
+
     };
 
     const focusHandler = ()=>{
         var span = document.getElementById(spanid);
 
         span.style.top = '-10px';
+
     };
 
     useEffect(()=>{
         if (type === 'email') {
             setValidateEmail(validateEmailAddress(inputValue));
         }
+
     }, [ inputValue ]);
+
 
     return (
         <div className='input-main'>

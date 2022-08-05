@@ -1,0 +1,166 @@
+{
+    "name": "header",
+    "instance": "1607596727415",
+    "properties": {
+      "type": "scrolling",
+      "centerAlign": false,
+      "disableSticky": false,
+      "disableShadow": false,
+      "borderColor": "#CCC",
+      "logo": {
+        "alt": "Alt text",
+        "src": "https://s7ap1.scene7.com/is/image/hexawarestage/Prada_Logo?fmt=png-alpha"
+      },
+      "navigations": {
+        "explorePages": [
+          {
+            "label": "Home",
+            "url": "/content/prada/en/home.html",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "secondaryNav": null,
+            "roles": [],
+            "userTypes": [],
+            "active": false
+          },
+          {
+            "label": "Video",
+            "url": "/content/prada/en/home/shoppable-look.html",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "secondaryNav": null,
+            "roles": [],
+            "userTypes": [],
+            "active": false
+          },
+          {
+            "label": "Media",
+            "url": "/content/prada/en/home/media.html",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "secondaryNav": null,
+            "roles": [],
+            "userTypes": [],
+            "active": false
+          },
+          {
+            "label": "Appointments",
+            "url": "/content/prada/en/home/appointments.html",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "secondaryNav": null,
+            "roles": [],
+            "userTypes": [],
+            "active": false
+          }
+        ],
+        "functionalPages": [
+          {
+            "label": "Administration",
+            "url": "/content/prada/en/home/administration/buyers.html",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "roles": [
+              "admin"
+            ],
+            "userTypes": [
+              "designer"
+            ],
+            "active": true
+          },
+          {
+            "label": "Ranging Room",
+            "url": "#",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "secondaryNav": null,
+            "roles": null,
+            "userTypes": null,
+            "active": false
+          },
+          {
+            "label": "Sign Out",
+            "url": "#",
+            "target": "_self",
+            "type": null,
+            "hasSecondaryNav": false,
+            "secondaryNav": null,
+            "roles": null,
+            "userTypes": null,
+            "active": false,
+            "logout": true
+          }
+        ]
+      },
+      "retailers": {
+        "label": "Select Retailer",
+        "type": "dropdown",
+        "name": "retailers",
+        "required": true,
+        "error": {
+          "invalid": "Retailers Dropdown invalid error message ",
+          "empty": "Retailers Dropdown empty error message "
+        }
+      },
+      "buyers": {
+        "label": "Select Buyer",
+        "type": "dropdown",
+        "name": "buyers",
+        "required": false,
+        "error": {
+          "invalid": "Buyers Dropdown invalid error message *",
+          "empty": "Buyers Dropdown empty error message *"
+        }
+      },
+      "theme": "light",
+      "secondaryTheme": "dark",
+      "createOrderForBuyer": "CREATE AN ORDER",
+      "createOrderForBuyerCTA": "CREATE AN ORDER",
+      "endBuyerSession": "EXIT ORDER",
+      "labels": {
+        "welcomeLabel": "Welcome",
+        "currencyText": "Currency",
+        "saveAsDraftOrderCTA": "SAVE AS DRAFT",
+        "changeCurrencyTitle": "Are you sure you want to change the currency ?",
+        "changeCurrencyDescription": "This will resultwill<br/> in all added products being REMOVED from the Ranging Room. You may choose to save AS A DRAFT ORDER.",
+        "discardOrderCTA": "DISCARD ORDER",
+        "cartMessage": "Products is there in cart. do we need to discrad the changes",
+        "emptyProducts": "products are not available for this currency",
+        "cancelCreateOrderCTA": "CANCEL",
+        "cancelCTA": "CANCEL",
+        "buyerFlowMessage": "YOU ARE CURRENTLY ORDERING AS A {buyerName} FOR {retailerName}"
+      },
+      "apiSuccess":{
+        "draftSaveSuccess":"Draft id # {} saved successfully"
+      }
+    },
+    "logoLink": {
+      "label": null,
+      "url": "#",
+      "target": "_self",
+      "type": null
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+        "logout": "",
+        "listProduct": "/mocks/rangingRoom.json",
+        "updatePriceType":"http://localhost:8080/api/v1/user/update/pricetype",
+        "retailerCollections": "/mocks/collections.json?{retailerId}",
+        "fetchBuyersByRetailerId": "/mocks/retailerBuyers.json",
+        "fetchAllRetailersWithActiveBuyers": "/mocks/retailers.json",
+        "whitelistCollections": "/mocks/whitelistCollections.json?{retailerId}",
+        "impersonateCreateBuyer": "/mocks/whitelistCollections.json",
+        "impersonateEndBuyerSession": "/mocks/whitelistCollections.json",
+        "clearCart": "/mocks/clear.json",
+        "saveOrder": "/mocks/save.json"
+      }
+    }
+  }
+  
