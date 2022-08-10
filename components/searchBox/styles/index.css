@@ -9,7 +9,7 @@
     outline: none;
     padding: 10px;
     position: relative;
-    border-color: rgb(182, 177, 177);
+    border-color: rgb(175, 174, 174);
 }
 .btn-search {
     position: absolute;
@@ -32,11 +32,11 @@
 
 @media screen and (max-width: 600px) {
     .input-search input {
-        width: 400px;
-        margin-left: 50px;
+        width: 300px;
+        margin-left: 30px;
     }
     .btn-search {
-        right: 130px;
+        right: 247px;
     }
 }
 

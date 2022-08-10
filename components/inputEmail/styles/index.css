@@ -11,14 +11,21 @@
 }
 @media screen and (max-width: 600px) {
     .input-email input {
-        width: 350px;
+        width: 250px;
     }
 
     .input-email {
         margin-left: 50px;
     }
 } 
+span {
+    margin-bottom: 30px;
+}
 
+.input-email span {
+    transition: all 0.5s ease;
+    padding: 0px;
+}
 /* 
 .input-email input {
     padding: 10px;
@@ -65,8 +72,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 2px;
-    margin-left: 5px;
+    /* margin-top: 2px;
+    margin-left: 5px; */
     font-size: 13px;
 }
 
@@ -84,4 +91,6 @@
 .icon-valid {
     color: green;
     margin-right: 5px;
+    margin-bottom: 7px;
+    margin-top: 5px;
 }

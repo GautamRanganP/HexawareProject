@@ -4,10 +4,10 @@
 
 @media screen and (max-width: 600px) {
     .input-comment input {
-        width: 250px;
+        width: 200px;
     }
     .input-comment {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 }
 

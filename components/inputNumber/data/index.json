@@ -1,0 +1,16 @@
+{
+    "name": "inputNumber",
+    "instance": "10",
+    "properties": {
+      "id": "Number1",
+      "type": "number",
+      "placeholder":"2",
+      "spanid":"10"
+    },
+    "type": "dynamic",
+    "services": {
+      "urls": {
+      }
+    }
+  }
+  

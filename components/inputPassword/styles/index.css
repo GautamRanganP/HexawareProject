@@ -8,10 +8,10 @@
 
 @media screen and (max-width: 600px) {
     .input-password input {
-        width: 250px;
+        width: 200px;
     }
     .input-password {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 }
 

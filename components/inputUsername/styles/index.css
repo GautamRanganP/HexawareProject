@@ -4,10 +4,10 @@
 }
 @media screen and (max-width: 600px) {
     .input-username input {
-        width: 250px;
+        width: 200px;
     }
     .input-username {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 }
 

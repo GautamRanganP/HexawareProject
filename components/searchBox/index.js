@@ -7,7 +7,7 @@ import './styles/index.css';
 const SearchBox = (props) => {
 
     const {
-        placeholder, onChange, value
+        placeholder, onChange, value, clickHandler
     } = props;
 
     const { type } = props;
@@ -16,7 +16,7 @@ const SearchBox = (props) => {
     return (
         <div className='input-search'>
             <input placeholder={placeholder} type={type} onChange={onChange} value={value}></input>
-            <button className='fa fa-search btn-search'></button>
+            <button className='fa fa-search btn-search' onClick={clickHandler}></button>
         </div>
     );
 };
